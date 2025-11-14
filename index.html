@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <nav>
-      <h1>GamersForce</h1>
-      <p>Product Management</p>
-    </nav>
-    <main>
-      <div class="mainLeft">Add a New Product</div>
-      <form class="mainRight">
-        <div>
-          <span><label>Name</label> <input type="text" size="20" /></span>
-          <span><label>Price</label> <input type="number" size="20" /></span>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-        <div>
-          <span><label>Quantity</label> <input type="number" /></span>
-          <span
-            ><label>Genre</label>
-            <select>
-              <option>Action & Adventure</option>
-              <option>Puzzle</option>
-              <option>Role Playing (RPG)</option>
-              <option>Simulation</option>
-              <option>Strategy</option>
-              <option>Sports</option>
-            </select></span
-          >
-        </div>
+<body>
+  <nav>
+    <h1>GamersForce</h1>
+    <p>Product Management</p>
+  </nav>
+  <main>
+    <div class="mainLeft">Add a Product</div>
+    <form class="mainRight">
+      <div>
+        <span><label>Name</label> <input type="text" size="20" /></span>
+        <span><label>Price</label> <input type="number" size="20" /></span>
+      </div>
 
-        <div>
-          <span><input type="checkbox" /> <label>Free Shipping</label></span>
-          <span><input type="checkbox" /> <label>Limited Edition</label></span>
-          <span><input type="checkbox" /> <label>Featured Product</label></span>
-        </div>
+      <div>
+        <span><label>Quantity</label> <input type="number" /></span>
+        <span><label>Genre</label>
+          <select>
+            <option>Action & Adventure</option>
+            <option>Puzzle</option>
+            <option>Role Playing (RPG)</option>
+            <option>Simulation</option>
+            <option>Strategy</option>
+            <option>Sports</option>
+          </select></span>
+      </div>
 
-        <div>
-          <span
-            ><label>Physical</label>
-            <input name="game_productType" type="radio"
-          /></span>
-          <span
-            ><label>Digital</label>
-            <input name="game_productType" type="radio" />
-          </span>
-        </div>
+      <div>
+        <span><input type="checkbox" /> <label>Free Shipping</label></span>
+        <span><input type="checkbox" /> <label>Limited Edition</label></span>
+        <span><input type="checkbox" /> <label>Featured Product</label></span>
+      </div>
 
-        <input type="submit" />
-      </form>
-    </main>
-    <footer></footer>
-  </body>
+      <div>
+        <span>
+          <input name="game_productType" type="radio" /><label>Physical</label>
+        </span>
+        <span>
+          <input name="game_productType" type="radio" />
+          <label>Digital</label>
+
+        </span>
+      </div>
+
+      <input type="submit" />
+    </form>
+  </main>
+  <footer></footer>
+</body>
+
 </html>

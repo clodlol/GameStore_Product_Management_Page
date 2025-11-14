@@ -45,6 +45,8 @@ main {
   height: auto;
   width: 100%;
 
+background-color: rgba(0, 0, 0, 0.1);
+
   font-family: "Inter", sans-serif;
 
   color: white;
@@ -55,20 +57,18 @@ main {
 }
 
 .mainLeft {
-  border-style: solid;
-  border-width: 2px;
-  border-color: var(--accentColor);
+    border-radius: 10px;
 
   margin: 40px 0px;
   padding: 20px 10px;
 
-  border-radius: 10px;
-
-  background-image: url('./assets/gamesBG.jpg');
+  background-image: url('./assets/gamesBG2_green.png');
+  backdrop-filter: grayscale(50%) brightness(50%);
   background-position: center;
-  background-color: var(--accentColor);
+  background-color: rgba(0, 0, 0, 0.5);
 
   width: 30%;
+  height: 320px;
 
   display: flex;
   align-items: center;
@@ -160,7 +160,6 @@ select
 option
 {
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 12px 24px;
 
     color: black;
     font-size: 16px;
