@@ -13,36 +13,44 @@
       <p>Product Management</p>
     </nav>
     <main>
-      <div class="mainLeft"><img src="./assets/bliss.webp"/></div>
+      <div class="mainLeft"><h1>Add a New Product</h1></div>
       <form class="mainRight">
-        <label>Name</label>
-        <input type="text" />
-        <label>Price</label>
-        <input type="number" />
-        <label>Quantity</label>
-        <input type="number" />
+        <div>
+          <label>Name</label>
+          <input type="text" />
+          <label>Price</label>
+          <input type="number" />
+        </div>
 
-        <label>Genre</label>
-        <select>
-          <option>Action & Adventure</option>
-          <option>Puzzle</option>
-          <option>Role Playing (RPG)</option>
-          <option>Simulation</option>
-          <option>Strategy</option>
-          <option>Sports</option>
-        </select>
+        <div>
+          <label>Quantity</label>
+          <input type="number" />
+          <label>Genre</label>
+          <select>
+            <option>Action & Adventure</option>
+            <option>Puzzle</option>
+            <option>Role Playing (RPG)</option>
+            <option>Simulation</option>
+            <option>Strategy</option>
+            <option>Sports</option>
+          </select>
+        </div>
 
+        <div>
+        <input type="checkbox" />
         <label>Free Shipping</label>
         <input type="checkbox" />
         <label>Limited Edition</label>
         <input type="checkbox" />
         <label>Featured Product</label>
-        <input type="checkbox" />
+        </div>
 
+        </div>
         <label>Physical</label>
         <input name="game_productType" type="radio" />
         <label>Digital</label>
         <input name="game_productType" type="radio" />
+        </div>
 
         <input type="submit" />
       </form>
