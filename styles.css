@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+10&display=swap");
+
+:root {
+  --backgroundColor: #313647;
+  --foregroundColor: #435663;
+  --accentColor: #a3b087;
+  --accentLight: #fff8d4;
+}
+
+body {
+  width: 98vw;
+  height: 100vh;
+  background-color: var(--backgroundColor);
+}
+
+nav {
+  height: auto;
+  width: 100%;
+  padding: 8px 0px 8px 0px;
+
+  background-color: var(--foregroundColor);
+  color: var(--accentLight);
+
+  font-family: "Jersey 10", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: normal;
+}
+
+p {
+  margin: 0px;
+  font-size: 20px;
+}
+
+main {
+  height: auto;
+  width: 100%;
+
+  font-family: "Inter", sans-serif;
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainLeft {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainRight {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: inherit;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+  main {
+    height: auto;
+    width: 100%;
+
+    font-family: "Inter", sans-serif;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mainLeft {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mainRight {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: inherit;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  main {
+    height: auto;
+    width: 100%;
+
+    font-family: "Inter", sans-serif;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mainLeft {
+    height: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mainRight {
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    height: inherit;
+  }
+}
