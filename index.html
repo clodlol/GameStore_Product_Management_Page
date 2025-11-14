@@ -13,43 +13,43 @@
       <p>Product Management</p>
     </nav>
     <main>
-      <div class="mainLeft"><h1>Add a New Product</h1></div>
+      <div class="mainLeft">Add a New Product</div>
       <form class="mainRight">
         <div>
-          <label>Name</label>
-          <input type="text" />
-          <label>Price</label>
-          <input type="number" />
+          <span><label>Name</label> <input type="text" size="20" /></span>
+          <span><label>Price</label> <input type="number" size="20" /></span>
         </div>
 
         <div>
-          <label>Quantity</label>
-          <input type="number" />
-          <label>Genre</label>
-          <select>
-            <option>Action & Adventure</option>
-            <option>Puzzle</option>
-            <option>Role Playing (RPG)</option>
-            <option>Simulation</option>
-            <option>Strategy</option>
-            <option>Sports</option>
-          </select>
+          <span><label>Quantity</label> <input type="number" /></span>
+          <span
+            ><label>Genre</label>
+            <select>
+              <option>Action & Adventure</option>
+              <option>Puzzle</option>
+              <option>Role Playing (RPG)</option>
+              <option>Simulation</option>
+              <option>Strategy</option>
+              <option>Sports</option>
+            </select></span
+          >
         </div>
 
         <div>
-        <input type="checkbox" />
-        <label>Free Shipping</label>
-        <input type="checkbox" />
-        <label>Limited Edition</label>
-        <input type="checkbox" />
-        <label>Featured Product</label>
+          <span><input type="checkbox" /> <label>Free Shipping</label></span>
+          <span><input type="checkbox" /> <label>Limited Edition</label></span>
+          <span><input type="checkbox" /> <label>Featured Product</label></span>
         </div>
 
-        </div>
-        <label>Physical</label>
-        <input name="game_productType" type="radio" />
-        <label>Digital</label>
-        <input name="game_productType" type="radio" />
+        <div>
+          <span
+            ><label>Physical</label>
+            <input name="game_productType" type="radio"
+          /></span>
+          <span
+            ><label>Digital</label>
+            <input name="game_productType" type="radio" />
+          </span>
         </div>
 
         <input type="submit" />
