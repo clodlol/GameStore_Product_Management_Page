@@ -13,13 +13,16 @@
     <h1>GamersForce</h1>
     <p>Product Management</p>
   </nav>
-  <main>
+  <section class="add">
     <div class="mainLeft">Add a Product</div>
     <form class="mainRight">
       <div>
-        <span class="textualInputElement"><label>Name</label> <input type="text" /></span>
-        <span class="textualInputElement"><label>Price</label> <input type="number" /></span>
-        <span class="textualInputElement"><label>Quantity</label> <input type="number" /></span>
+        <span class="textualInputElement"><label>Name</label> <input type="text" maxlength="30" minlength="3"
+            required /></span>
+        <span class="textualInputElement"><label>Price</label> <input type="number" required min="1"
+            max="1000" /></span>
+        <span class="textualInputElement"><label>Quantity</label> <input type="number" required min="1"
+            max="1000" /></span>
         <span class="textualInputElement"><label>Genre</label>
           <select>
             <option>Action & Adventure</option>
@@ -47,13 +50,27 @@
 
         </span>
       </div>
-        
-        <div>
-          <button type="submit">Add</button>
-        </div>
+
+      <div>
+        <button type="submit">Add</button>
+      </div>
       </div>
     </form>
-  </main>
+  </section>
+  <section class="add">
+    <div class="mainLeft">Remove a Product</div>
+    <form class="mainRight">
+      <div>
+        <span class="textualInputElement"><label>Product ID</label> <input type="text" required maxlength="30"
+            minlength="3" /></span>
+      </div>
+
+      <div>
+        <button type="submit">Remove</button>
+      </div>
+      </div>
+    </form>
+  </section>
   <footer></footer>
 </body>
 
