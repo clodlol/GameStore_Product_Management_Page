@@ -17,13 +17,10 @@
     <div class="mainLeft">Add a Product</div>
     <form class="mainRight">
       <div>
-        <span><label>Name</label> <input type="text" size="20" /></span>
-        <span><label>Price</label> <input type="number" size="20" /></span>
-      </div>
-
-      <div>
-        <span><label>Quantity</label> <input type="number" /></span>
-        <span><label>Genre</label>
+        <span class="textualInputElement"><label>Name</label> <input type="text" /></span>
+        <span class="textualInputElement"><label>Price</label> <input type="number" /></span>
+        <span class="textualInputElement"><label>Quantity</label> <input type="number" /></span>
+        <span class="textualInputElement"><label>Genre</label>
           <select>
             <option>Action & Adventure</option>
             <option>Puzzle</option>
@@ -35,23 +32,26 @@
       </div>
 
       <div>
-        <span><input type="checkbox" /> <label>Free Shipping</label></span>
-        <span><input type="checkbox" /> <label>Limited Edition</label></span>
-        <span><input type="checkbox" /> <label>Featured Product</label></span>
+        <span class="selectionInputElement"><input type="checkbox" /> <label>Free Shipping</label></span>
+        <span class="selectionInputElement"><input type="checkbox" /> <label>Limited Edition</label></span>
+        <span class="selectionInputElement"><input type="checkbox" /> <label>Featured Product</label></span>
       </div>
 
       <div>
-        <span>
+        <span class="selectionInputElement">
           <input name="game_productType" type="radio" /><label>Physical</label>
         </span>
-        <span>
+        <span class="selectionInputElement">
           <input name="game_productType" type="radio" />
           <label>Digital</label>
 
         </span>
       </div>
-
-      <input type="submit" />
+        
+        <div>
+          <button type="submit">Add</button>
+        </div>
+      </div>
     </form>
   </main>
   <footer></footer>
