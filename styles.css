@@ -52,7 +52,7 @@ p {
   color: white;
 
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
 }
 
@@ -62,15 +62,17 @@ p {
   margin: 40px 0px;
   padding: 20px 10px;
 
-  background-image: url("./assets/gamesBG2_green.png");
-  backdrop-filter: grayscale(50%) brightness(50%);
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  outline-style: solid;
+  outline-color: var(--accentColor);
+  outline-width: 2px;
+
+  background-color: rgba(0, 0, 0, 0.2);
 
   width: 30%;
   height: auto;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -94,7 +96,7 @@ img {
   align-items: center;
 }
 
-form div {
+.mainRight div {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -106,14 +108,14 @@ form div {
   width: 80%;
 }
 
-form div .textualInputElement {
+.mainRight div .textualInputElement {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
 }
 
-form div .selectionInputElement {
+.mainRight div .selectionInputElement {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -122,8 +124,18 @@ form div .selectionInputElement {
   gap: 2px;
 }
 
-form div .textualInputElement > * {
+.mainRight div .textualInputElement > * {
   padding: 6px 16px;
+}
+
+.mainRight .statParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainRight .statElement {
+  font-size: 36px;
 }
 
 input {
@@ -234,7 +246,7 @@ option {
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .add {
     display: flex;
     flex-direction: column;
@@ -256,7 +268,7 @@ option {
     gap: 32px;
   }
 
-  form div {
+  .mainRight div {
     display: flex;
     flex-direction: column;
     justify-content: center;

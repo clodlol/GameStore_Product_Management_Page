@@ -4,15 +4,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Website</title>
+  <title>Game Studio Product Management</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
   <nav>
-    <h1>GamersForce</h1>
+    <h1 >Game Studio</h1>
     <p>Product Management</p>
   </nav>
+  <section class="add">
+    <div class="mainLeft">
+      <h1 class="brand">Game Studio</h1>
+      <span>Inventory Overview</span>
+    </div>
+    <div class="mainRight">
+      <div class="statParent">
+        <span class="statElement">Total Products: X</span>
+      </div>
+
+      <div class="statParent">
+        <span class="statElement">Categories: X</span>
+      </div>
+
+      <div class="statParent">
+        <span class="statElement">Items out of stock: X</span>
+      </div>
+
+      <div class="statParent">
+        <span class="statElement">Low stock alerts: X</span>
+      </div>
+      </div>
+    </div>
+  </section>
   <section class="add">
     <div class="mainLeft">Add a Product</div>
     <form class="mainRight">
@@ -42,10 +66,10 @@
 
       <div>
         <span class="selectionInputElement">
-          <input name="game_productType" type="radio" /><label>Physical</label>
+          <input name="game_productType" type="radio" required/><label>Physical</label>
         </span>
         <span class="selectionInputElement">
-          <input name="game_productType" type="radio" />
+          <input name="game_productType" type="radio" required/>
           <label>Digital</label>
 
         </span>
