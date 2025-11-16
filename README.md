@@ -32,6 +32,7 @@ A simple **product management webpage** for a gaming store, designed to help you
 
 * HTML
 * CSS
+* Javascript(Maybe?)
 
 ---
 
