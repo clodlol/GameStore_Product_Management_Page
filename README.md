@@ -32,7 +32,6 @@ A simple **product management webpage** for a gaming store, designed to help you
 
 * HTML
 * CSS
-* JavaScript
 
 ---
 
@@ -79,7 +78,7 @@ cd GameStore_Product_Management_Page
 
 ---
 
-## Future Improvements
+## Todo List
 
 * Persistent storage with `localStorage` or a database
 * Edit existing products
@@ -110,5 +109,5 @@ MIT License
 
 ## Contact
 
-Created by **[Your Name]**
+Created by **clodlol**
 Feel free to reach out with questions or suggestions.
